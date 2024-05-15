@@ -1,0 +1,13 @@
+#imprimir la interseccion de las dos listas
+lista1 = [15,9,10,56,23,78,5,4,9]
+lista2 = [9,4,36,47,26,10,5,87]
+lista0 = []
+set1 = set(lista1)
+set2 = set(lista2)
+set3 = set1 & set2
+for i in  lista1:
+    for x in  lista2:
+        if(i == x):
+            print("la interseccion es",i)
+            lista0 = lista0 + [i]
+        
